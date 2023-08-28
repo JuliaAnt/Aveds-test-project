@@ -4,8 +4,10 @@ function Header(): JSX.Element {
             <div className='logo-container'>
                 <img src='./img/logo.png' alt='Logo' />
             </div>
-            <button className='contacts'>Контакты</button>
-            <button className='log-in'>Войти</button>
+            <div className='buttons-container'>
+                <button className='contacts'>Контакты</button>
+                <button className='log-in'>Войти</button>
+            </div>
         </header>
     );
 }
