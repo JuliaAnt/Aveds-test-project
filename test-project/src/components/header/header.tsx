@@ -3,7 +3,7 @@ function Header(): JSX.Element {
         <header className='header'>
             <div className='header-wrapper'>
                 <div className='logo-container'>
-                    <img src='./img/logo.png' alt='Logo' />
+                    <img src='./img/logo_react_48.png' alt='Logo' />
                 </div>
                 <div className='buttons-container'>
                     <button className='contacts'>Контакты</button>

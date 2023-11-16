@@ -7,7 +7,7 @@ function MainPage(): JSX.Element {
             <main className='main-container'>
                 <div className='wrapper'>
                     <div className='title-container'>
-                        <h1>Место для получения медицинской помощи</h1>
+                        <h1>Место для проверки имени</h1>
                         <div className='main-button-container'>
                             <button className='main-log-in'>Войти</button>
                             <button className='main-contacts'>Контакты</button>
@@ -16,27 +16,14 @@ function MainPage(): JSX.Element {
                     <div className='service-container'>
                         <div className='service'>
                             <div className='service-logo'>
-                                <img src='./img/online-recept.png' alt='Online-reception' />
+                                <img src='./img/logo_react.png' alt='Online-reception' />
                             </div>
-                            <h3>Онлайн-прием</h3>
+                            <h3>Онлайн-проверка</h3>
                             <div className='red-line'></div>
-                            <p className='service-text'>Рыба текст</p>
-                        </div>
-                        <div className='service'>
-                            <div className='service-logo'>
-                                <img src='./img/emergency.png' alt='Emergency' />
+                            <div className='request-field'>
+                                <input className='input-field' type='text' placeholder="Введите имя"/>
+                                <button className='main-log-in'>Проверить</button>
                             </div>
-                            <h3>Экстренный Случай</h3>
-                            <div className='red-line'></div>
-                            <p className='service-text'>Рыба текст</p>
-                        </div>
-                        <div className='service'>
-                            <div className='service-logo'>
-                                <img src='./img/treatment.png' alt='Treatment' />
-                            </div>
-                            <h3>Лечение рака</h3>
-                            <div className='red-line'></div>
-                            <p className='service-text'>Рыба текст</p>
                         </div>
                     </div>
                 </div>
