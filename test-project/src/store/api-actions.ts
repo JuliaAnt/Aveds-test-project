@@ -11,10 +11,7 @@ export const fetchGenderDataAction = createAsyncThunk<
     state: State;
     extra: AxiosInstance;
   }
->(
-    'fetchGenderData',
-    async (enteredName, { extra: api }) => {
-        const { data } = await api.get<Result>(`?name=${enteredName}/`);
-        return data;
-      }
-);
+>("fetchGenderData", async (enteredName, { extra: api }) => {
+  const { data } = await api.get<Result>(`?name=${enteredName}`);
+  return data;
+});
