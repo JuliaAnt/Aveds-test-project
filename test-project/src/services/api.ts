@@ -1,6 +1,6 @@
-import axios, { AxiosInstance } from 'axios';
+import axios, { AxiosInstance } from "axios";
 
-const BASE_URL = 'https://api.nationalize.io';
+const BASE_URL = "https://api.genderize.io";
 const TIMEOUT = 5000;
 
 export const createApi = (): AxiosInstance => {
